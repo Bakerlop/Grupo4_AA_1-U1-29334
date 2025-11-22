@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel de Estudiantes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles/globals.css">
+</head>
+<body>
+
+  <app-dashboard></app-dashboard>
+
+  <script type="module">
+    import './components/dashboard/app-dashboard.js';
+
+    import './components/students/student-form.js';
+    import './components/students/student-list.js';
+    import './components/students/student-item.js';
+
+    import './components/grades/grades-panel.js';
+    import './components/attendance/attendance-panel.js';
+  </script>
+
+</body>
+</html>
