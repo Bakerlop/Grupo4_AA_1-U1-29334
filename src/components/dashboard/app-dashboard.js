@@ -137,6 +137,8 @@ export class AppDashboard extends HTMLElement {
     const attendancePanel = this.shadowRoot.querySelector('attendance-panel');
 
     studentList.students = this.students;
+    studentList.grades = this.grades;
+    studentList.attendance = this.attendance;
     studentList.selectedStudent = this.selectedStudent;
 
     if (this.selectedStudent) {
