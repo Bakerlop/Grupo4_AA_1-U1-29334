@@ -1,0 +1,17 @@
+:host {
+    display: block;
+}
+
+.list {
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.empty {
+    color: #666;
+    padding: 0.8rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+}

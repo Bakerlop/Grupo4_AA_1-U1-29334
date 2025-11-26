@@ -1,0 +1,49 @@
+:host {
+    display: block;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: #fff;
+    padding: 0.7rem 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+    transition: 0.12s;
+}
+
+.item:hover {
+    transform: translateY(-2px);
+}
+
+.item.selected {
+    outline: 2px solid #4f46e5;
+}
+
+.meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.course {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.stats {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.stat {
+    font-size: 0.9rem;
+    color: #333;
+}

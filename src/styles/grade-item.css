@@ -1,0 +1,135 @@
+:host {
+    display: block;
+}
+
+.grade-card {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.grade-card:hover {
+    border-color: #6366f1;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.15);
+}
+
+.materia {
+    font-weight: 600;
+    color: #1f2937;
+    font-size: 1rem;
+}
+
+.nota-display {
+    text-align: center;
+}
+
+.nota-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    min-width: 60px;
+}
+
+.nota-badge.excelente {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.nota-badge.bueno {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.nota-badge.regular {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.nota-badge.insuficiente {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.btn-edit {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.btn-edit:hover {
+    background: #bfdbfe;
+}
+
+.btn-delete {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.btn-delete:hover {
+    background: #fecaca;
+}
+
+.btn-save {
+    background: #10b981;
+    color: white;
+}
+
+.btn-save:hover {
+    background: #059669;
+}
+
+.btn-cancel {
+    background: #e5e7eb;
+    color: #4b5563;
+}
+
+.btn-cancel:hover {
+    background: #d1d5db;
+}
+
+.edit-mode {
+    background: #f0f9ff;
+    border-color: #3b82f6;
+}
+
+input {
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    width: 100%;
+    font-family: inherit;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.error {
+    color: #dc2626;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}

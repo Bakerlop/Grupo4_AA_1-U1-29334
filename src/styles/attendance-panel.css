@@ -1,0 +1,54 @@
+/* Empty state */
+p {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+/* Panel state */
+.panel {
+    background: #f9fafb;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+h3 {
+    margin-bottom: .6rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+button {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.ok {
+    background: #16a34a;
+}
+
+.fail {
+    background: #dc2626;
+}
+
+.late {
+    background: #d97706;
+}
+
+.stats {
+    font-size: 0.9rem;
+    background: white;
+    padding: .6rem;
+    border-radius: 6px;
+    margin-top: .6rem;
+}
