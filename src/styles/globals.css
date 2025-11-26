@@ -1,0 +1,19 @@
+/* Global Styles */
+:root {
+    --primary-color: #4f46e5;
+    --bg-color: #f3f4f6;
+    --text-color: #1f2937;
+    --font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+* {
+    box-sizing: border-box;
+}
